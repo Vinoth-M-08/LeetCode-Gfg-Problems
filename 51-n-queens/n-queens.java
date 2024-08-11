@@ -8,8 +8,8 @@ class Solution {
             }
         }
         int [] leftrow=new int [n];
-        int [] upper_diagonal=new int[2*n-1];
-        int [] lower_diagonal=new int[2*n-1];
+        int [] upper_diagonal=new int[2*n];
+        int [] lower_diagonal=new int[2*n];
         solve(0,board,ans,leftrow,upper_diagonal,lower_diagonal);
         return ans;
     }
